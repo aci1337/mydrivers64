@@ -3,7 +3,8 @@ CVE-2023-1678
 DriverGenius 9.70.0.346, mydrivers64.sys 9.2.707.1214
 http://www.drivergenius.com/
 
-```__int64 __fastcall sub_11530(__int64 a1, int a2, void *a3, unsigned int a4, unsigned int *a5)
+```
+__int64 __fastcall sub_11530(__int64 a1, int a2, void *a3, unsigned int a4, unsigned int *a5)
 {
   unsigned int v9; // eax
   __int64 v10; // r12
@@ -58,4 +59,5 @@ http://www.drivergenius.com/
     return 3221225485i64;
   *a5 = a4;
   return 0i64;
-}```
+}
+```
